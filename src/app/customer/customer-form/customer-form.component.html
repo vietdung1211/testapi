@@ -1,0 +1,7 @@
+<form>
+    <label for="">Name</label>
+    <input type="text" placeholder="Name" [(ngModel)]="currentCustomer.name" [ngModelOptions]="{standalone: true}">
+    <label for="">Age</label>
+    <input type="text" placeholder="Age" [(ngModel)]="currentCustomer.age" [ngModelOptions]="{standalone: true}">
+    <button (click)="Onsubmit()">Submit</button>
+</form>
